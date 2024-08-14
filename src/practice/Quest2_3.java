@@ -2,7 +2,9 @@ package practice;
 
 public class Quest2_3 {
 	public static void main(String[]args) {
+//		myDog1インスタンスを作成する
 		Quest2_Dog myDog1 = new Quest2_Dog();
+//		myDog2インスタンスを作成する
 		Quest2_Dog myDog2 = new Quest2_Dog();
 		
 //		Quest2_DogクラスのSetNameメソッドに引数"ポチ"を渡す

@@ -9,6 +9,7 @@ public class Quest2_CoinCase {
 	private int Yen1 = 0;
 	
 	public void AddCoin(int kind,int count) {
+//		硬貨の種類ごとにカウントを増やす
 		switch(kind) {
 		case 500:
 			Yen500 += count;
@@ -37,6 +38,7 @@ public class Quest2_CoinCase {
 	public int GetCount(int kind) {
 		int resultCount = 0;
 		
+//		各硬貨ごとの枚数を格納し、戻り値として返す
 		switch(kind) {
 		case 500:
 			resultCount = Yen500;
@@ -59,9 +61,11 @@ public class Quest2_CoinCase {
 		}
 		return resultCount;
 	}
+//	硬貨の総数を戻り値として返す
 	public int GetCount() {
 		return Yen500 + Yen100 + Yen50 + Yen10 + Yen5 + Yen1;
 	}
+//	総額を戻り値として返す
 	public int GetAmount() {
 		return (Yen500 * 500) + (Yen100 * 100) + (Yen50 * 50) + (Yen10 * 10) + (Yen5 * 5) + Yen1;	
 	}
