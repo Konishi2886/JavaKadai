@@ -59,6 +59,9 @@ public class Quest2_CoinCase {
 		}
 		return resultCount;
 	}
+	public int GetCount() {
+		return Yen500 + Yen100 + Yen50 + Yen10 + Yen5 + Yen1;
+	}
 	public int GetAmount() {
 		return (Yen500 * 500) + (Yen100 * 100) + (Yen50 * 50) + (Yen10 * 10) + (Yen5 * 5) + Yen1;	
 	}
