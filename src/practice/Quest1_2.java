@@ -7,7 +7,7 @@ public class Quest1_2 {
 //		scannerインスタンスを作成し、入力を受け付ける
 		Scanner scanner = new Scanner(System.in);
 		
-//		10この整数を格納する配列を作成する
+//		10個の整数を格納する配列を作成する
 		int values[] = new int[10];
 		System.out.println("数字を5個入力してください");
 //		ループして整数を配列に格納する
